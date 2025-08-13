@@ -1,0 +1,15 @@
+spring:
+  config:
+    name: ahun-integrantes
+
+  datasource:
+    url: jdbc:db2://localhost:5432/dbahun
+    username: db2inst1
+    password: uW1_EzkIEpi8Vv97jRBf
+    driverClassName: com.ibm.db2.jcc.DB2Driver
+
+  jpa:  
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.DB2Dialect
